@@ -47,7 +47,7 @@
     <div id="top">
         <div class="container">
             <div class="col-md-6 offer" data-animate="fadeInDown">
-                <a href="#" class="btn btn-success btn-sm" data-animate-hover="shake">Offer of the day</a>  <a href="#">Get flat 35% off on orders over $50!</a>
+                <a href="#" class="btn btn-success btn-sm" data-animate-hover="shake">Offer of the day</a>  <a href="#">50ドル以上お買い上げなら、35%ＯＦＦ！</a>
             </div>
             <div class="col-md-6" data-animate="fadeInDown">
                 <ul class="menu">
@@ -58,7 +58,7 @@
                                 <div class="yamm-content">
                                     <div class="row">
                                             <div class="col-sm-3">
-                                                <a href="/logout" class="layout-menu-font">Logout</a>
+                                                <a href="/logout" class="layout-menu-font">ログアウト</a>
                                             </div>
                                     </div>
                                 </div>
@@ -66,14 +66,14 @@
                         </ul>
                     </li>
                     <#else>
-                    <li><a href="#" data-toggle="modal" data-target="#login-modal">Login</a>
+                    <li><a href="#" data-toggle="modal" data-target="#login-modal">ログイン</a>
                     </li>
                     </#if>
 
-                    <li><a href="/register">Register</a>
+                    <li><a href="/register">新規登録</a>
                     </li>
 
-                    <li><a href="http://www.tis.co.jp/recruit/index.html">Contact</a>
+                    <li><a href="http://www.tis.co.jp/recruit/index.html">連絡先</a>
                     </li>
                 </ul>
             </div>
@@ -84,7 +84,7 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                        <h4 class="modal-title" id="Login">Customer login</h4>
+                        <h4 class="modal-title" id="Login">ログイン</h4>
                     </div>
                     <div class="modal-body">
                         <form action="/login" method="post">
@@ -96,7 +96,7 @@
                             </div>
 
                             <p class="text-center">
-                                <button class="btn btn-primary"><i class="fa fa-sign-in"></i> Log in</button>
+                                <button class="btn btn-primary"><i class="fa fa-sign-in"></i> ログイン</button>
                             </p>
 
                         </form>

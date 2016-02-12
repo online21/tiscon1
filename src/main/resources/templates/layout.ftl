@@ -48,7 +48,7 @@
     <div id="top">
         <div class="container">
             <div class="col-md-6 offer" data-animate="fadeInDown">
-                <a href="#" class="btn btn-success btn-sm" data-animate-hover="shake">Offer of the day</a>  <a href="#">Get flat 35% off on orders over $50!</a>
+                <a href="#" class="btn btn-success btn-sm" data-animate-hover="shake">Offer of the day</a>  <a href="#">50ドル以上お買い上げなら35%OFF！</a>
             </div>
             <div class="col-md-6" data-animate="fadeInDown">
                 <ul class="menu">
@@ -67,12 +67,12 @@
                         </ul>
                     </li>
                     <#else>
-                    <li><a href="#" data-toggle="modal" data-target="#login-modal">Login</a>
+                    <li><a href="#" data-toggle="modal" data-target="#login-modal">ログイン</a>
                     </li>
                     </#if>
-                    <li><a href="/register">Register</a>
+                    <li><a href="/register">新規登録</a>
                     </li>
-                    <li><a href="http://www.tis.co.jp/recruit/index.html">Contact</a>
+                    <li><a href="http://www.tis.co.jp/recruit/index.html">お問い合わせ</a>
                     </li>
                 </ul>
             </div>
@@ -144,10 +144,10 @@
 
                 <ul class="nav navbar-nav navbar-left">
                     <li>
-                        <a href="/">Home</a>
+                        <a href="/">ホーム</a>
                     </li>
                     <li class="dropdown yamm-fw">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200">Movie <b class="caret"></b></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200">映画 <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
                                 <div class="yamm-content">
@@ -169,7 +169,7 @@
                     </li>
 
                     <li class="dropdown yamm-fw">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200">Music <b class="caret"></b></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200">音楽 <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
                                 <div class="yamm-content">
@@ -196,7 +196,7 @@
             <div class="navbar-buttons">
 
                 <div class="navbar-collapse collapse right" id="basket-overview">
-                    <a href="basket.html" class="btn btn-primary navbar-btn"><i class="fa fa-shopping-cart"></i><span class="hidden-sm">3 items in cart</span></a>
+                    <a href="basket.html" class="btn btn-primary navbar-btn"><i class="fa fa-shopping-cart"></i><span class="hidden-sm">カートに入れる</span></a>
                 </div>
                 <!--/.nav-collapse -->
 
@@ -243,23 +243,23 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-3 col-sm-6">
-                        <h4>Pages</h4>
+                        <h4>ページ</h4>
 
                         <ul>
-                            <li><a href="http://www.tis.co.jp/recruit/index.html">About us</a>
+                            <li><a href="http://www.tis.co.jp/recruit/index.html">TIS</a>
                             </li>
-                            <li><a href="http://www.tis.co.jp/recruit/index.html">Contact us</a>
+                            <li><a href="http://www.tis.co.jp/recruit/index.html">お問い合わせ</a>
                             </li>
                         </ul>
 
                         <hr>
 
-                        <h4>User section</h4>
+                        <h4>新規登録とログイン</h4>
 
                         <ul>
-                            <li><a href="#" data-toggle="modal" data-target="#login-modal">Login</a>
+                            <li><a href="#" data-toggle="modal" data-target="#login-modal">ログイン</a>
                             </li>
-                            <li><a href="/register">Regiter</a>
+                            <li><a href="/register">新規登録</a>
                             </li>
                         </ul>
 
@@ -270,9 +270,9 @@
 
                     <div class="col-md-3 col-sm-6">
 
-                        <h4>Ranking</h4>
+                        <h4>ランキング</h4>
 
-                        <h5>Movie</h5>
+                        <h5>映画</h5>
                         <ul>
                             <#list movieGenres as movie>
                                 <li><a href="/category?genreId=33&subgenreId=${movie.id}">${movie.name}</a></li>
@@ -281,7 +281,7 @@
                     </div>
                     <!-- /.col-md-3 -->
                     <div class="col-md-3 col-sm-6">
-                        <h5>Music</h5>
+                        <h5>音楽</h5>
                         <ul>
                             <#list musicGenres as music>
                                 <li><a href="/category?genreId=34&subgenreId=${music.id}">${music.name}</a></li>
@@ -295,18 +295,18 @@
 
                     <div class="col-md-3 col-sm-6">
 
-                        <h4>Where to find us</h4>
+                        <h4>所在地</h4>
 
                         <p><strong>TIS Inc.</strong>
-                            <br>Sumitomo Fudosan Shinjuku Grand Tower,
-                            <br>17-1,Nishishinjuku 8-chome,
-                            <br>Shinjuku-ku,Tokyo,
+                            <br>住友不動産グランドタワー,
+                            <br>17-1,西新宿８丁目,
+                            <br>東京都新宿区,
                             <br>160-0023
                             <br>
-                            <strong>Japan</strong>
+                            <strong>日本</strong>
                         </p>
 
-                        <a href="http://www.tis.co.jp/recruit/index.html">Go to contact page</a>
+                        <a href="http://www.tis.co.jp/recruit/index.html">お問い合わせ</a>
 
                         <hr class="hidden-md hidden-lg">
 
@@ -319,7 +319,7 @@
 
                         <hr>
 
-                        <h4>Stay in touch</h4>
+                        <h4>連絡先</h4>
 
                         <p class="social">
                             <a href="http://www.facebook.com/tis.recruit" class="facebook external" data-animate-hover="shake"><i class="fa fa-facebook"></i></a>

@@ -8,9 +8,9 @@
             <div class="col-md-12">
 
                 <ul class="breadcrumb">
-                    <li><a href="/">Home</a>
+                    <li><a href="/">ホーム</a>
                     </li>
-                    <li>My wishlist</li>
+                    <li>関連商品</li>
                 </ul>
 
             </div>
@@ -21,23 +21,23 @@ _________________________________________________________ -->
                 <div class="panel panel-default sidebar-menu">
 
                     <div class="panel-heading">
-                        <h3 class="panel-title">Customer section</h3>
+                        <h3 class="panel-title">お客様情報</h3>
                     </div>
 
                     <div class="panel-body">
 
                         <ul class="nav nav-pills nav-stacked">
                             <li>
-                                <a href="/my/orders?id=${customer.id}"><i class="fa fa-list"></i> My orders</a>
+                                <a href="/my/orders?id=${customer.id}"><i class="fa fa-list"></i> 注文履歴</a>
                             </li>
                             <li class="active">
-                                <a href="/my/wishlist?id=${customer.id}"><i class="fa fa-heart"></i> My wishlist</a>
+                                <a href="/my/wishlist?id=${customer.id}"><i class="fa fa-heart"></i> 関連商品</a>
                             </li>
                             <li>
-                                <a href="/my/account?id=${customer.id}"><i class="fa fa-user"></i> My account</a>
+                                <a href="/my/account?id=${customer.id}"><i class="fa fa-user"></i> マイページ</a>
                             </li>
                             <li>
-                                <a href="/logout"><i class="fa fa-sign-out"></i> Logout</a>
+                                <a href="/logout"><i class="fa fa-sign-out"></i> ログアウト</a>
                             </li>
                         </ul>
                     </div>
@@ -51,13 +51,13 @@ _________________________________________________________ -->
             <div class="col-md-9" id="wishlist">
 
                 <ul class="breadcrumb">
-                    <li><a href="#">Home</a>
+                    <li><a href="#">ホーム</a>
                     </li>
-                    <li>Ladies</li>
+                    <li>関連商品</li>
                 </ul>
 
                 <div class="box">
-                    <h1>My wishlist</h1>
+                    <h1>関連商品</h1>
                     <p class="lead">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
                 </div>
 
@@ -86,8 +86,8 @@ _________________________________________________________ -->
                                 <h3><a href="/detail">Fur coat with very but very very long name</a></h3>
                                 <p class="price">$143.00</p>
                                 <p class="buttons">
-                                    <a href="/detail" class="btn btn-default">View detail</a>
-                                    <a href="/basket" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                    <a href="/detail" class="btn btn-default">詳細情報</a>
+                                    <a href="/basket" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>カートに入れる</a>
                                 </p>
                             </div>
                             <!-- /.text -->
@@ -118,8 +118,8 @@ _________________________________________________________ -->
                                 <h3><a href="/detail.html">White Blouse Armani</a></h3>
                                 <p class="price"><del>$280</del> $143.00</p>
                                 <p class="buttons">
-                                    <a href="/detail" class="btn btn-default">View detail</a>
-                                    <a href="/basket" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                    <a href="/detail" class="btn btn-default">詳細情報</a>
+                                    <a href="/basket" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>カートに入れる</a>
                                 </p>
                             </div>
                             <!-- /.text -->
@@ -168,8 +168,8 @@ _________________________________________________________ -->
                                 <h3><a href="/detail">Black Blouse Versace</a></h3>
                                 <p class="price">$143.00</p>
                                 <p class="buttons">
-                                    <a href="/detail" class="btn btn-default">View detail</a>
-                                    <a href="/basket" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                    <a href="/detail" class="btn btn-default">詳細情報</a>
+                                    <a href="/basket" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>カートに入れる</a>
                                 </p>
 
                             </div>
@@ -201,8 +201,8 @@ _________________________________________________________ -->
                                 <h3><a href="/detail">Black Blouse Versace</a></h3>
                                 <p class="price">$143.00</p>
                                 <p class="buttons">
-                                    <a href="/detail" class="btn btn-default">View detail</a>
-                                    <a href="/basket" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                    <a href="/detail" class="btn btn-default">詳細情報</a>
+                                    <a href="/basket" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>カートに入れる</a>
                                 </p>
 
                             </div>
@@ -234,8 +234,8 @@ _________________________________________________________ -->
                                 <h3><a href="/detail">White Blouse Versace</a></h3>
                                 <p class="price">$143.00</p>
                                 <p class="buttons">
-                                    <a href="/detail" class="btn btn-default">View detail</a>
-                                    <a href="/basket" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                    <a href="/detail" class="btn btn-default">詳細情報</a>
+                                    <a href="/basket" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>カートに入れる</a>
                                 </p>
 
                             </div>
@@ -273,8 +273,8 @@ _________________________________________________________ -->
                                 <h3><a href="/detail">Fur coat</a></h3>
                                 <p class="price">$143.00</p>
                                 <p class="buttons">
-                                    <a href="/detail" class="btn btn-default">View detail</a>
-                                    <a href="/basket" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                    <a href="/detail" class="btn btn-default">詳細情報</a>
+                                    <a href="/basket" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>カートに入れる</a>
                                 </p>
 
                             </div>
@@ -314,8 +314,8 @@ _________________________________________________________ -->
                                 <h3><a href="detail.html">White Blouse Armani</a></h3>
                                 <p class="price"><del>$280</del> $143.00</p>
                                 <p class="buttons">
-                                    <a href="/detail" class="btn btn-default">View detail</a>
-                                    <a href="/basket" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                    <a href="/detail" class="btn btn-default">詳細情報</a>
+                                    <a href="/basket" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>カートに入れる</a>
                                 </p>
                             </div>
                             <!-- /.text -->
@@ -364,8 +364,8 @@ _________________________________________________________ -->
                                 <h3><a href="/detail">Black Blouse Versace</a></h3>
                                 <p class="price">$143.00</p>
                                 <p class="buttons">
-                                    <a href="/detail" class="btn btn-default">View detail</a>
-                                    <a href="/basket" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                    <a href="/detail" class="btn btn-default">詳細情報</a>
+                                    <a href="/basket" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>カートに入れる</a>
                                 </p>
 
                             </div>

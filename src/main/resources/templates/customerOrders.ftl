@@ -8,9 +8,9 @@
             <div class="col-md-12">
 
                 <ul class="breadcrumb">
-                    <li><a href="#">Home</a>
+                    <li><a href="#">ホーム</a>
                     </li>
-                    <li>My orders</li>
+                    <li>注文ページ</li>
                 </ul>
 
             </div>
@@ -21,23 +21,23 @@ _________________________________________________________ -->
                 <div class="panel panel-default sidebar-menu">
 
                     <div class="panel-heading">
-                        <h3 class="panel-title">Customer section</h3>
+                        <h3 class="panel-title">お客様情報</h3>
                     </div>
 
                     <div class="panel-body">
 
                         <ul class="nav nav-pills nav-stacked">
                             <li class="active">
-                                <a href="/my/orders?id=${customer.id}"><i class="fa fa-list"></i> My orders</a>
+                                <a href="/my/orders?id=${customer.id}"><i class="fa fa-list"></i> 注文履歴</a>
                             </li>
                             <li>
-                                <a href="/my/wishlist?id=${customer.id}"><i class="fa fa-heart"></i> My wishlist</a>
+                                <a href="/my/wishlist?id=${customer.id}"><i class="fa fa-heart"></i> 関連商品</a>
                             </li>
                             <li>
-                                <a href="/my/account?id=${customer.id}"><i class="fa fa-user"></i> My account</a>
+                                <a href="/my/account?id=${customer.id}"><i class="fa fa-user"></i> マイページ</a>
                             </li>
                             <li>
-                                <a href="/logout"><i class="fa fa-sign-out"></i> Logout</a>
+                                <a href="/logout"><i class="fa fa-sign-out"></i> ログアウト</a>
                             </li>
                         </ul>
                     </div>
@@ -50,10 +50,10 @@ _________________________________________________________ -->
 
             <div class="col-md-9" id="customer-orders">
                 <div class="box">
-                    <h1>My orders</h1>
+                    <h1>注文ページ</h1>
 
-                    <p class="lead">Your orders on one place.</p>
-                    <p class="text-muted">If you have any questions, please feel free to <a href="contact.html">contact us</a>, our customer service center is working for you 24/7.</p>
+                    <p class="lead">注文一覧</p>
+                    <p class="text-muted">ご質問があれば、サービスセンターにご連絡ください。 <a href="contact.html">contact us</a>サービスセンターは７時から２４時まで営業しています。</p>
 
                     <hr>
 
@@ -61,11 +61,11 @@ _________________________________________________________ -->
                         <table class="table table-hover">
                             <thead>
                                 <tr>
-                                    <th>Order</th>
-                                    <th>Date</th>
-                                    <th>Total</th>
-                                    <th>Status</th>
-                                    <th>Action</th>
+                                    <th>注文</th>
+                                    <th>日付</th>
+                                    <th>総額</th>
+                                    <th>購買状況</th>
+                                    <th>行動</th>
                                 </tr>
                             </thead>
                             <tbody>
